@@ -31,31 +31,31 @@ Identifying key health indicators that significantly affect heart diseases so th
 
 Using our ML Function through our Streamlit interface, users can:
 
-1)Check for risk of heart diseases based on lifestyle practices
-2)Look for recommendations to improve their overall health 
-3)Understand the major factors affecting their health and consult their doctors before it is too late.
+1) Check for risk of heart diseases based on lifestyle practices
+2) Look for recommendations to improve their overall health 
+3) Understand the major factors affecting their health and consult their doctors before it is too late.
 
 
 ## Conclusion
 Increase risk of Heart Diseases if:
 
-1)High Cholesterol levels
-2)High Blood Pressure 
-3)Smoked more than 100 cigarettes in your life
-4)Older age
-5)Worsening Physical Health and Mental Health
-6)No Physical Exercise
+1) High Cholesterol levels
+2) High Blood Pressure 
+3) Smoked more than 100 cigarettes in your life
+4) Older age
+5) Worsening Physical Health and Mental Health
+6) No Physical Exercise
 
 Factors such as number of fruits and vegetables eaten in a day, health insurance , and medical cost did not significantly affect the risk of heart diseases as compared to independent variables mentioned above . 
 
 
 ## What did we learn from this project?
 
-Use of Streamlit for deploying webapp and incorporating a beautiful interface for our ML model pickled using joblib
-Use of methods such as predict and predict_proba in logistic regression
-Exploring Sklearn modules such as Pipeline , Standard scaler for scaling and further exploration of seaborn as a tool for visualization
-Collaborating using GitHub
-Cleaning and Curating datasets and binary and multiclass classification
+1) Use of Streamlit for deploying webapp and incorporating a beautiful interface for our ML model pickled using joblib
+2) Use of methods such as predict and predict_proba in logistic regression
+3) Exploring Sklearn modules such as Pipeline , Standard scaler for scaling and further exploration of seaborn as a tool for visualization
+4) Collaborating using GitHub
+5) Cleaning and Curating datasets and binary and multiclass classification
 
 
 ## References
@@ -69,4 +69,3 @@ Cleaning and Curating datasets and binary and multiclass classification
 8) https://www.cdc.gov/brfss/annual_data/2015/pdf/codebook15_llcp.pdf
 9) https://www.cdc.gov/pcd/issues/2019/19_0109.html
 10) https://docs.streamlit.io/library/api-reference
-7
