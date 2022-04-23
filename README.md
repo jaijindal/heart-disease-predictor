@@ -36,11 +36,15 @@ https://www.kaggle.com/datasets/cdc/behavioral-risk-factor-surveillance-system
 
 
 ## Machine Learning Model
+- Decided to use logistics regression after extensive research and consideration for other machine learning models
+- Extracted response and predictors. Assigned Y as dependent variable (HeartDiseaseorAttack) and X as 21 independent variables dataframe
+- Split dataset into random train and test with ration of 0.25
+- Imported modules such as preprocessing and pipeline from sklearn to scale the model
+- Ran the model and dumped it into a PKL file using joblib. 
+- Used spyder to create streamlit application where we use the ML Model (PKL file) to predict heart disease risk.
 
-
-
-
-
+- The accuracy of the model came out to be around 89% which shows our model is not only ideal but also realistic.
+- The model showed 1.4% false positives.
 
 
 ## Application In Real Life
@@ -52,7 +56,7 @@ Using our ML Function through our Streamlit interface, users can:
 3) Understand the major factors affecting their health and consult their doctors before it is too late.
 
 
-## Conclusion
+## Data Driven Insights
 Increase risk of Heart Diseases if:
 
 1) High Cholesterol levels
