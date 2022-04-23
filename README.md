@@ -26,6 +26,16 @@ Identifying key health indicators that significantly affect heart diseases so th
 ## Machine Learning Model
 
 
+
+## Application In Real Life
+
+Using our ML Function through our Streamlit interface, users can:
+
+1)Check for risk of heart diseases based on lifestyle practices
+2)Look for recommendations to improve their overall health 
+3)Understand the major factors affecting their health and consult their doctors before it is too late.
+
+
 ## Conclusion
 Increase risk of Heart Diseases if:
 
@@ -45,7 +55,18 @@ Use of Streamlit for deploying webapp and incorporating a beautiful interface fo
 Use of methods such as predict and predict_proba in logistic regression
 Exploring Sklearn modules such as Pipeline , Standard scaler for scaling and further exploration of seaborn as a tool for visualization
 Collaborating using GitHub
+Cleaning and Curating datasets and binary and multiclass classification
 
 
 ## References
-
+1) https://www.hindawi.com/journals/misy/2022/1410169/
+2) https://www.kaggle.com/datasets/cdc/behavioral-risk-factor-surveillance-system
+3) https://slidesgo.com/theme/data-science-consulting
+4) https://www.webmd.com/heart/heart-health-tips 
+5) https://www.health.harvard.edu/healthbeat/10-small-steps-for-better-heart-health 
+6) https://www.healthxchange.sg/heart-lungs/heart-disease/how-to-improve-heart-health-naturally
+7) Buttar, H. S., Li, T., & Ravi, N. (2005). Prevention of cardiovascular diseases: Role of exercise, dietary interventions, obesity and smoking cessation. Experimental and clinical cardiology, 10(4), 229–249.
+8) https://www.cdc.gov/brfss/annual_data/2015/pdf/codebook15_llcp.pdf
+9) https://www.cdc.gov/pcd/issues/2019/19_0109.html
+10) https://docs.streamlit.io/library/api-reference
+7
