@@ -19,11 +19,27 @@ Identifying key health indicators that significantly affect heart diseases so th
 1) What risk factors are most predictive of heart disease risk?
 2) Can we use a subset of the risk factors to accurately build a webapp that can predict whether an individual has heart disease?
 
+## Dataset
+
+The Behavioral Risk Factor Surveillance System (BRFSS) is the nation's premier system of health-related telephone surveys that collect state data about U.S. residents regarding their health-related risk behaviors, chronic health conditions, and use of preventive services. BRFSS completes more than 400,000 adult interviews each year, making it the largest continuously conducted health survey system in the world.
+
+https://www.kaggle.com/datasets/cdc/behavioral-risk-factor-surveillance-system
+
 
 ## Cleaning the Dataset 
+- The BRFSS Dataset initially had 441456 rows and 330 columns
+- Shortlisted 22 columns most suited for heart diseases
+- Dropped missing values. 97850 rows removed.
+- Changing previously Ordinal variable to Categorical variable (Binary yes-no)
+- Making ordering of Ordinal variable to become more precise by removing the unwanted statistical data
+- Final 21 variables listed as Blood pressure, cholesterol, how recent is cholesterol check, BMI, smoke activity, stroke, diabetes, physical activity frequency, eat fruits, eat veggies, amount of alcohol consumption, registered healthcare insurance, financial problems for medical visits, general health, mental health, physical health, difficulty walking/climbing stairs, sex, age, education level, income level.
 
 
 ## Machine Learning Model
+
+
+
+
 
 
 
