@@ -36,10 +36,10 @@ Increase risk of Heart Diseases if:
 5)Worsening Physical Health and Mental Health
 6)No Physical Exercise
 
-###### Factors such as number of fruits and vegetables eaten in a day, health insurance , and medical cost did not significantly affect the risk of heart diseases as compared to independent variables mentioned above . 
+Factors such as number of fruits and vegetables eaten in a day, health insurance , and medical cost did not significantly affect the risk of heart diseases as compared to independent variables mentioned above . 
 
 
-What did we learn from this project?
+## What did we learn from this project?
 
 Use of Streamlit for deploying webapp and incorporating a beautiful interface for our ML model pickled using joblib
 Use of methods such as predict and predict_proba in logistic regression
