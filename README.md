@@ -5,7 +5,7 @@ This is a mini project for SC1015 Introduction to Data Science and Artificial In
 
 1) The [Datasets Folder](Datasets/) contains the original BRFSS 2015 DATASET. Since its size is more than 500MB , it has been split into 3 zipfiles.
 2) The [Presentation Folder](Presentation/) contains our PPT used to make our video.
-3) The [Code Folder](Code/) contains the [Final Jupyter File](Code/DSAI_Project_Final.ipynb) that includes cleaning the dataset, data exploration, and ML Model. The [PKL File](Code/logReg_model.pkl) is the pickled ML Model extracted from the [Final Jupyter File](Code/DSAI_Project_Final.ipynb). The [Py Python File](Code/heart_predic_final.py) is used to program streamlit and use the ML Model in [PKL File](Code/logReg_model.pkl)  to predict probability of heart disease. If you wish to run the streamlit webapp in your own device, you will have to edit lines 22 and 215 of heart_predict_final.py to update the address of heart.jpg and logReg_Model.pkl.
+3) The [Code Folder](Code/) contains the [Final Jupyter File](Code/DSAI_Project_Final.ipynb) that includes cleaning the dataset, data exploration, and ML Model. The [PKL File](Code/logReg_model.pkl) is the pickled ML Model extracted from the [Final Jupyter File](Code/DSAI_Project_Final.ipynb). The [Py Python File](Code/heart_predict_final.py) is used to program streamlit and use the ML Model in [PKL File](Code/logReg_model.pkl)  to predict probability of heart disease. If you wish to run the streamlit webapp in your own device, you will have to edit lines 22 and 215 of heart_predict_final.py to update the address of heart.jpg and logReg_Model.pkl.
 
 
 ## Contributors 
