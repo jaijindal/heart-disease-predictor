@@ -34,11 +34,18 @@ https://www.kaggle.com/datasets/cdc/behavioral-risk-factor-surveillance-system
 - Making ordering of Ordinal variable to become more precise by removing the unwanted statistical data
 - Final 21 variables listed as Blood pressure, cholesterol, how recent is cholesterol check, BMI, smoke activity, stroke, diabetes, physical activity frequency, eat fruits, eat veggies, amount of alcohol consumption, registered healthcare insurance, financial problems for medical visits, general health, mental health, physical health, difficulty walking/climbing stairs, sex, age, education level, income level.
 
+## Exploratory Data Analysis 
+- From the data exploration of heart disease or attack value the percentages were derived and the ratio of no heart disease to the possibility is 9:1
+- The average of heart disease of those with diabetes (category 2) is higher than those with pre-diabetes(category 1) which is double the value of those with no diabetes (category 0)
+- The average of heart disease and diabetes for those who have high blood cholesterol is seen to be high. 
+- An increase those with heart diseased can be spotted in the higher age categories. In the Age categories 9 to 13 even though the total number is declining those with a heart diseased is increasing.
+- The correlation matrix extremely useful for producing data-driven insights that are mentioned below.
+
 
 ## Machine Learning Model
 - Decided to use logistics regression after extensive research and consideration for other machine learning models
 - Extracted response and predictors. Assigned Y as dependent variable (HeartDiseaseorAttack) and X as 21 independent variables dataframe
-- Split dataset into random train and test with ration of 0.25
+- Split dataset into random train and test with ratio of 0.25
 - Imported modules such as preprocessing and pipeline from sklearn to scale the model
 - Ran the model and dumped it into a PKL file using joblib. 
 - Used spyder to create streamlit application where we use the ML Model (PKL file) to predict heart disease risk.
