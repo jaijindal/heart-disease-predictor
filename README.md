@@ -11,7 +11,7 @@ This is a mini project for SC1015 Introduction to Data Science and Artificial In
 ## Contributors 
 1) Jai Jindal - Streamlit, Logistics Regression, Video Presentation , PPT , GITHUB
 2) Livia Iriawan - Cleaning and Curating of Dataset , Video Presentation, PPT
-3) Shayanthaviy Sivasankar- Logistic Regression , Video Presentation, PPT
+3) Shayanthaviy Sivasankar- Logistic Regression , Data Exploration, Video Presentation, PPT
 
 ## Problem Definition 
 
